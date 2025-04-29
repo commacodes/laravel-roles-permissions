@@ -1,0 +1,21 @@
+{
+    "name": "commacodes/laravel-roles-permissions",
+    "description": "Simple roles and permissions package for Laravel.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Commacodes\\RolesPermissions\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Commacodes\\RolesPermissions\\RolesPermissionsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    }
+}
