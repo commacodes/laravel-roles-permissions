@@ -1,6 +1,7 @@
 {
     "name": "commacodes/laravel-roles-permissions",
     "description": "Simple roles and permissions package for Laravel.",
+    "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
